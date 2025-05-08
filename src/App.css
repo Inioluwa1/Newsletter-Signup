@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* border: 3px solid; */
+  background-color: hsl(235, 18%, 26%);
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  /* padding-top: 10%; */
+}
+
+.App {
+  /* border: 3px solid green; */
+  border-radius: 20px;
+  width: 50%;
+  padding: 1rem;
+  margin: auto;
+  background-color: white;
+  position: relative ;
+  top: 15%;
+  height: 70%;
 }

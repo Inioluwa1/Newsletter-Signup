@@ -1,0 +1,19 @@
+.Confirm {
+  border: 3px solid red;
+  padding: 3rem;
+}
+
+.Confirm img{
+  margin-bottom: 1rem;
+}
+
+.Confirm h1{
+  margin-bottom: 1rem;
+  color: rgb(36, 39, 66);
+  font-size: 3.5rem;
+}
+
+.Confirm p{
+  margin-bottom: 1rem;
+  color: rgb(36, 39, 66);
+}

@@ -1,0 +1,46 @@
+.Email{
+  /* border: 3px solid green; */
+  margin-top: 2rem;
+}
+
+label {
+  font-weight: 900;
+}
+
+input[type='email'] {
+  padding: 0.6rem 1rem;
+  /* border: 3px solid green; */
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(201, 197, 197);
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  box-shadow: 2px 2px 10px grey;
+  margin-bottom: 0.4rem;
+}
+
+input[type='email']:hover{
+  border: 1px solid black;
+}
+
+.Email p{
+  text-align: center;
+  font-style: italic;
+  color: red;
+}
+
+button{
+  color: white;
+  font-weight: 900;
+  background-color: rgb(36, 39, 66);
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: hsl(4, 100%, 67%);
+}

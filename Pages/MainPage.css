@@ -1,0 +1,35 @@
+.MainPage{
+  border: 3px solid;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MainPageDetails{
+  border: 3px solid blue;
+  /* height: 90%; */
+  width: 52%;
+  padding: 1rem;
+}
+
+.MainPageDetails h1{
+  color: rgb(36, 39, 66);
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.MainPageDetails p{
+  color: rgb(36, 39, 66)
+}
+
+.MainPageImage {
+  border: 3px solid red;
+  height: 100%;
+  width: 45%;
+  padding: 0.3rem;
+}
+
+.MainPageImage img{
+  height: 100%;
+}

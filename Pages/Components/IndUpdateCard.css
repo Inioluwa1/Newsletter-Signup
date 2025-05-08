@@ -1,0 +1,16 @@
+.UpdateCard{
+  /* border: 3px solid red; */
+  margin-top: 1rem;
+}
+
+.indUpdateCard{
+  /* border: 2px solid green; */
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.indUpdateCard p{
+  margin-left: 1rem;
+  color: rgb(54, 56, 78);
+}
