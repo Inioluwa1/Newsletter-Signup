@@ -23,5 +23,41 @@
   color: rgb(36, 39, 66);
 }
 
+.Confirm button{
+  color: white;
+  font-weight: 900;
+  background-color: rgb(36, 39, 66);
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: hsl(4, 100%, 67%);
+}
+
+
+@media screen and (max-width: 760px) {
+  .Confirm{
+    width: 100%;
+    border-radius: 0;
+    /* border: 3px solid ; */
+    padding-top: 10rem;
+    padding-left: 2rem;
+    height: 100vh;
+    position: relative;
+  }
+  .Confirm img{
+    margin-bottom: 3rem;
+  }
+  .Confirm button{
+    position: absolute;
+    bottom: 4rem;
+    width: 80%;
+  }
+}
 
 /* adesanyanifesimi@gmail.com */

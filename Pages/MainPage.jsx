@@ -14,7 +14,7 @@ export default function MainPage() {
       </div>
 
       <div className='MainPageImage'>
-        <img src='/illustration-sign-up-desktop.svg' />
+        <div className='Image'></div>
       </div> 
     </div>
   )

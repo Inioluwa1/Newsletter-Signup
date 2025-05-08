@@ -1,18 +1,20 @@
 .MainPage{
-  border: 3px solid;
+  /* border: 3px solid; */
   height: 100%;
-  width: 55%;
+  width: 50%;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: white;
+  border-radius: 20px;
+  padding: 1rem 0.2rem;
 }
 
 .MainPageDetails{
   /* border: 3px solid blue; */
   /* height: 90%; */
-  width: 52%;
+  width: 47%;
   padding: 1rem;
 }
 
@@ -28,11 +30,52 @@
 
 .MainPageImage {
   /* border: 3px solid red; */
-  height: 100%;
-  width: 44%;
-  padding: 0.3rem;
+  height: 70vh;
+  width: 45%;
+  padding: 0.4rem;
 }
 
-.MainPageImage img{
+.Image{
+  background-image: url('/illustration-sign-up-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 10px;
   height: 100%;
+}
+
+@media screen and (max-width: 760px) {
+  .MainPage{
+    width: 100%;
+    flex-direction: column-reverse;
+    border-radius: 0;
+    padding: 0;
+  }
+  .MainPageImage{
+    height: 30vh;
+    width: 100%;
+    /* border: 3px solid red; */
+    padding: 0;
+  }
+  .Image{
+    background-image: url('/illustration-sign-up-mobile.svg');
+    width: 100%;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* height: auto; */
+  }
+
+  .MainPageDetails{
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .MainPageDetails h1{
+    font-size: 3rem;
+  }
+  .MainPageDetails p{
+    font-size: 1.2rem;
+  }
+
 }
