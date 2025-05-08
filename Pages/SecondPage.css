@@ -60,7 +60,7 @@ button:hover{
   }
 }
 
-@media screen and (min-width:760px) and (max-width: 1200px) {
+@media screen and (min-width:760px) and (max-width: 1601px) {
   .Confirm{
     width: 70%
   }
