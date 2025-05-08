@@ -1,13 +1,16 @@
 .MainPage{
   border: 3px solid;
   height: 100%;
+  width: 55%;
+  margin: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: white;
 }
 
 .MainPageDetails{
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   /* height: 90%; */
   width: 52%;
   padding: 1rem;
@@ -24,9 +27,9 @@
 }
 
 .MainPageImage {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   height: 100%;
-  width: 45%;
+  width: 44%;
   padding: 0.3rem;
 }
 

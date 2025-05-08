@@ -1,19 +1,27 @@
 .Confirm {
-  border: 3px solid red;
+  /* border: 3px solid red; */
+  border-radius: 20px;
+  margin: auto;
+  width: 27%;
   padding: 3rem;
+  background-color: white;
 }
 
 .Confirm img{
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .Confirm h1{
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   color: rgb(36, 39, 66);
   font-size: 3.5rem;
+  line-height: 3.5rem;
 }
 
 .Confirm p{
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: rgb(36, 39, 66);
 }
+
+
+/* adesanyanifesimi@gmail.com */
