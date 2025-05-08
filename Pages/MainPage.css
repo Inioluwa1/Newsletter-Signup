@@ -79,3 +79,13 @@
   }
 
 }
+
+@media screen and (min-width:760px) and (max-width: 1200px) {
+  .MainPage{
+    /* border: 3px solid red; */
+    width: 100%
+  }
+  .MainPageDetails h1{
+    font-size: 3rem;
+  }
+}
